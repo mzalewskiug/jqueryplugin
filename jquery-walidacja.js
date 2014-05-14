@@ -1,5 +1,11 @@
 ﻿$(document).ready(function() { 
-
+	
+		$( "p" ).keyup(function() {
+			$( "p" ).each(function() {
+				$( this ).toggleClass( "blad" );
+					});
+			});
+	
 		$('.jplug-imieinazwisko').keyup(function() {
 			$('p.blad-imieinazwisko').remove();
 			var tmp = $(this).val();
@@ -32,8 +38,5 @@
 				
 			}
 		});		
-		
-});
-		
 		
 });
