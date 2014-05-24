@@ -6,28 +6,24 @@
 	<script src="jquery-walidacja.js"></script>
 	
 	<meta charset=utf-8 />
+
 	
-	<style> .blad { background-color: red; }</style>
-	<style> .spoko { background-color: green; }</style
+	<title>walidacja formularza w jquery</title>
+	
 </head>
 
 <body>
-	<p>
-		<input type="text" class="jplug jplug-imieinazwisko" placeholder="Imię i nazwisko">
-	</p>	
-	
-	<p>
-		<input type="text" class="jplug jplug-email" placeholder="E-mail">
-	</p>		
-	
-	<p>
-		<input type="password" class="jplug jplug-haslo-dlugosc jplug-haslo-jakosc" placeholder="Hasło">
-	</p>		
-	
-	<p>
-		<button type="jplug button" class="jplug button">Zarejestruj</button>
-	</p>
 
+<form id="formularz">
+    <p><label>Imię i Nazwisko:</label><input type="text" class="imieinazwisko"/></p>
+    <p><label>Hasło:</label><input type="password" class="haslo"/></p>
+    <p><label>E-Mail:</label><input type="text" class="email"/></p>
+    <p><label>&nbsp;</label><button type="submit" class="przycisk">Submit</button></p>
+</form>
+
+<script>
+    $('#formularz').walidacja();
+</script>
 
 	
 </body>
