@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
                                                                                 
 "features": [
-
-{ "type": "Feature", "geometry" : { "type" : "Point", "coordinates" : [  18.64655,  54.35888 ] }, "properties" : { "Szkoly wyzsze" : "Gdansk" }},
+{ "type": "Feature", "geometry" : { "type" : "Point", "coordinates" : [  18.64655,  54.35888 ] }, "properties" : { "Szkoly wyzsze" : "Gdansk" } }
+,
 ]
 }
