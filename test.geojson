@@ -3,7 +3,6 @@
                                                                                 
 "features": [
 
-{ "type": "Feature", "geometry" : { "type" : "Point", "coordinates" : [  18.63065,  54.34195 ] }, "name" : "Szkoły podstawowe", "city" : "Gdańsk" }},
-
+{ "type": "Feature", "geometry" : { "type" : "Point", "coordinates" : [  18.64655,  54.35888 ] }, "properties" : { "Szkoly wyzsze" : "Gdansk" }},
 ]
 }
